@@ -1,9 +1,18 @@
 .bg-landing {
+    position: relative;
     background-image: url('/img/landing.jpg');
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 40rem;
+    width: 100%;
     box-shadow: 0px 0px 0px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0, 0.4);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 nav {
